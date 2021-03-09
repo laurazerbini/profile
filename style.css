@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+body {
+  background-color: #FFF4E4;
+  font-family: 'Lato';
+  color: #0D1821;
+  font-size: 17px;
+}
+
+h1, h2, h3 {
+  font-size:16px;
+  line-height:2.5x;
+}
+
+a {
+  font-family: 'Lato',
+  text-decoration: none;
+  color: #344966;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/*.img-circle {
+  border-radius: 50%;
+}*/
+
+.container {
+  width: 400px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+/*.text-center {
+  text-align: center;
+}
+*/
+.card-white {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid red;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
